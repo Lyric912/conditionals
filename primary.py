@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Lyric Marner
+# date: July 22, 2021
 
 from random import randint
 
@@ -29,11 +29,23 @@ print('\n' + 'Task 1' + '\n')
 #
 # WRITE CODE BELOW #
 a = float(input('a = '))
-b =
-c =
-d =
+b = float(input('b = '))
+c = float(input('c = '))
+d = float(input('d = '))
+print()
 
 print('a == b |', a == b)
+print('a == b == c|', a == b == c)
+print('a > b > c |', a > b > c)
+print('a < b < c < d |', a < b < c < d)
+print('a != b == c != d |', a != b == c != d)
+print('a >= b >= c == d', a >= b >= c == d)
+print('a <= b > c <= d', a <= b > c <= d)
+print()
+# To make it faster you can copy and paste the equations. 
+# Test your code out to see if it looks the way it should.
+# I solved this by copying and pasting the equations into my code and then tested it by running the code and entering different numbers to see if it worked with all sorts of number combinations. 
+
 
 # 2 - if Statements (ONLY USE if STATEMENTS)
 print('\n' + 'Task 2' + '\n')
@@ -54,11 +66,21 @@ print('\n' + 'Task 2' + '\n')
 #
 # WRITE CODE BELOW #
 word1 = input('enter a word: ')
-word2 =
+word2 = input('enter another word: ')
 
 if word1 == word2:
     print(word1, 'and', word2, 'are the same!')
 
+if word1 != word2: 
+    print(word1, 'and', word2, 'are not the same.')
+
+if word1 < word2:
+    print('The first word,', word1, ', appears before the second word,', word2)
+
+if word1 > word2:
+    print('The first word,', word1, ', appears before the second word,', word2)
+# Refer back to the list of comparison operators if you forget what they are.
+# Add a comma in your string before it ends and before the other one starts so you can separate the word that the variable will insert into the sentence. 
 
 # 3 - if-elif-else Statements
 print('\n' + 'Task 3' + '\n')
@@ -78,7 +100,28 @@ print('\n' + 'Task 3' + '\n')
 #       5. Otherwise, print 'Lose!'
 #
 # WRITE CODE BELOW #
+dice1 = randint(1,6)
+dice2 = randint(1,6)
 
+for i in range(1):
+    if dice1 == dice2:
+        print('Doubles!', dice1,',', dice2)
 
+    elif dice1 == dice2 == 1:
+        print('Snake Eyes!')
+
+    elif dice1 == dice2 % 2 == 0:
+        print('Evens', dice1,',', dice2)
+
+    elif dice1 == dice2 % 2 == 1:
+        print('Odds!', dice1,',', dice2)
+
+    elif dice1 + dice2 > 6:
+        print('Win!')
+    
+    else:
+        print('Lose!')
+# Remember to keep the if, elif, and the else sections apart so it's easier to see if you have any mistakes. 
+# Make sure to indent the code when it's needed or else the data won't run correctly. 
 
 

@@ -24,7 +24,9 @@ print('--- Part 1 ---'.center(25))
 #   and informed the user if they are warmer or colder.
 #
 # WRITE CODE BELOW #
+from random import randint
 
+random_num = randint(1,100)
 
 # ---------- # Part 2 # ---------- #
 print('\n' + ('--- Part 2 ---'.center(25)) + '\n')

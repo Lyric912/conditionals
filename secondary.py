@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Lyric Marner
+# date: july 22, 2021
 
 # --------------- # Section 2 # --------------- #
 # ---------- # Part 1 # ---------- #
@@ -22,6 +22,18 @@ print('\n' + 'Task 1' + '\n')
 #       a. If so, print that the word is a palindrome.
 #       b. Otherwise, print that the word is not a palindrome.
 
+word = input('Enter a word: ')
+word = word.lower
+length = len(word)
+
+for i in range(1):
+    if length % 3 == 1: 
+        print('This word is a palindrome!')
+    else:
+        print('This word is not a palindrome.')
+
+
+# Make sure to add colons after your if statements so they run correctly. 
 
 # 2 - for Loop Patterns
 print('\n' + 'Task 2' + '\n')
@@ -51,31 +63,50 @@ for i in range(7):
         print(s)
 
 print()
+# 
+s = input('Enter a symbol: ')
 
-# ****
-# *   *
-# *   *
-# *   *
-# *   *
-# *   *
-# ****
+for i in range(6):
+    if i == 5:
+        print(s * 5)
+    else: 
+        print(s)
+
+s = input('Enter a symbol: ')
+for i in range(7):
+    if i % 6 == 0:
+        print(s * 4)
+    else:
+        print(s + ' ' * 3 + s)
+# Write out the position of i for the patterns so it's easier to find the pattern that you can make code to.
+# I used the addition symbol to add together the spaces and the singular symbols on each side to get the spaces within the pattern. 
+
+print()
+
+# ****  i = 0
+# *   * i = 1 
+# *   * i = 2
+# *   * i = 3
+# *   * i = 4
+# *   * i = 5 
+# ****  i = 6
 
 
-# &
-# &
-# &
-# &
-# &
-# &&&&&
+# &      i = 0
+# &      i = 1
+# &      i = 2
+# &      i = 3
+# &      i = 4
+# &&&&&  i = 5
 
 
-# @   @
-# @   @
-#  @ @
-#   @
-#  @ @
-# @   @
-# @   @
+# @   @    
+# @   @   
+#  @ @    
+#   @      
+#  @ @    
+# @   @     
+# @   @    
 
 
 # -------

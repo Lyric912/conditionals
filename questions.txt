@@ -1,29 +1,29 @@
-Name:
-Date:
+Name: Lyric Marner
+Date: July 22, 2021
 
 1 - What are the comparison operators and how do they work?
-
+The comparision operators are ==, <=, >=, !=, <, >. They work by comparing two things such as variables in if statements or for loops. 
 
 2 - What is the name of the type that has the values True and False?
-
+A Boolean is the name of the type that has the values True and False.
 
 3 - How do we make decisions within a program?
-
+You making decisions withing a program by using an if statement. 
 
 4 - If the condition of an if Statement evaluates to True, what happens?
-
+The code that the condition in the if statement specifies will be carried out if the condition evaluates to True. 
 
 5 - If the condition of an if Statement evaluates to False, what happens?
-
+The code will be skipped if the condition of an if statement evaluates to False. 
 
 6 - What is an else Statement?
-
+An else statement is a statement that are tied to the if statement right before it and they are a way of having a final alternative to the if statement. 
 
 7 - Do else Statements have a condition?
-
+Else statements do not have a condition. 
 
 8 - Do elif Statements have a condition?
-
+Elif statements do have a condition. 
 
 9 - Can you write code in between an if - elif - else tree?
-
+No, you can't write any code between an if - elif - else tree. 
